@@ -1,12 +1,8 @@
 body, html {
-  height: 100%;
-  margin: 0;
   font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
   align-items: flex-start;
   
-  background-image: url('bg.JPG'); /* Replace with your image path */
+  background-image: url('bg.JPG');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -14,10 +10,10 @@ body, html {
 }
 
 .centered-text {
-	margin-top: 10vh;
+  margin-top: 10vh;
   text-align: center;
   font-size: 28px;
-  color: #ffffff; /* Text color */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Improves readability */
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   max-width: 27%
 }
